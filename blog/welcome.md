@@ -1,11 +1,6 @@
 ---
-layout: base.njk
-title: Blog
 posttitle: Welcome to my Blog
-tags: blog
 ---
-
-# {{ posttitle }}
 
 _This coding stuff is difficult!_
 
