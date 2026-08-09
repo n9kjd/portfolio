@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="/pico.css">
+    <title>{{title}} | Jeffrey's Site</title>
+  </head>
+<div class="container">
+  <header>
+    <nav>
+      <ul>
+        <li>Jeffrey Dreyer's Site</li>
+      </ul>
+      <ul>
+        <li><strong>{{title}}</strong></li>
+      </ul>
+      <ul>
+        <li><a href="/">Photo</a></li>
+        <li><a href="/pages/video">Video</a></li>
+        <li><a href="/pages/blog">Blog</a></li>
+        <li><a href="/pages/aboutme">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <body>
+    {{content|safe}}
+  </body>
+</div>
+
+</html>
