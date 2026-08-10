@@ -1,7 +1,7 @@
 export default function(eleventyConfig) {
-  eleventyConfig.addShortcode("lightbox", function(filename, caption) {
-    return `<a href="/images/portfolio/${filename}" data-lightbox="portfolio" data-caption="${caption}">
-                <img src="/images/portfolio/${filename}" alt="${caption}">
+  eleventyConfig.addShortcode("lightbox", function(filename, gallery, caption) {
+    return `<a href="/images/${filename}" data-lightbox="${gallery}" data-caption="${caption}">
+                <img src="/images/${filename}" alt="${caption}">
             </a>`;
   });
 
