@@ -11,3 +11,4 @@ Here are some photographers and photojournalists that inspire me. This page is a
 - [Andrew Callaghan](https://www.youtube.com/@Channel5YouTube)
 - [Rich-Joseph Facun](https://facun.com/)
 - [Kevin D. Liles](https://www.kevindliles.com/index)
+- [Mark Powell](https://www.flickr.com/photos/locaburg/)
