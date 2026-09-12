@@ -15,5 +15,5 @@ Money's tight, but I would like to make the upgrade to a full frame camera. I do
 | Subtotal  | Total     | 10% Discount (finger's crossed robert's camera) |
 | --------- | --------- | ----------------------------------------------- |
 | $2,626.87 | $2,810.75 | $2,529.68                                       |
-
+p.s. I'm learning neovim and used it to write this post.
 
