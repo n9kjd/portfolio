@@ -1,8 +1,4 @@
 {
   "layout": "blog.njk",
-  "tags": [
-    "blog"
-  ],
-  "title": "Blog",
-  "date": "git Created"
-}
+  "tags": "post",
+  "date": "git Created" }

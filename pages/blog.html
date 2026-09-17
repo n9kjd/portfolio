@@ -1,0 +1,29 @@
+---
+layout: base.njk
+title: Blog
+pagination:
+  data: collections.post
+  size: 5
+  alias: blogposts
+  reverse: true
+---
+
+<ul>
+  {%- for post in blogposts -%}
+  <li><a href="{{ post.url }}">{{ post.data.posttitle }}</a></li>
+      <i>posted {{ post.date | formatDate }}</i>
+  {%- endfor -%}
+</ul>
+
+<nav aria-label="Blog pages">
+  {% if pagination.href.previous %}
+    <a href="{{ pagination.href.previous }}"><mark>Previous</mark></a>
+  {% endif %}
+  {% if pagination.href.next %}
+    <a href="{{ pagination.href.next }}"><mark>Next</mark></a>
+  {% endif %}
+</nav>
+
+{% comment %}
+  how the fuck does this pagination shit work?????????
+{% endcomment %}

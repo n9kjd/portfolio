@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Pulling repo..."
+git pull
+echo "Compiling website..."
+npx @11ty/eleventy --serve
+echo "Hope you liked it!"

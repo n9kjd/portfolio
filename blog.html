@@ -1,0 +1,18 @@
+---
+layout: base.njk
+title: Blog
+pagination: 
+  data: collections.posts
+  size: 2
+  alias: posts
+---
+
+<ol>
+  {% for posts in collections.posts | reverse %}
+    <li><a href="{{ post.url }}">{{ post.data.posttitle }}</a></li>
+  {% endfor %}
+</ol>
+
+{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Previous page</a>{% endi %}
+
+{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next page</a>{% endif %}
