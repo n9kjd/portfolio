@@ -5,12 +5,16 @@ permalink: /
 ---
 
 <style>
+/* center container with CSS */
+.grid {
+  margin: 0 auto;
+}
 .grid-sizer,
     .grid-item {
-      width: 30%;
+      width: 32%;
       margin-bottom: 1%;
     }
-  .grid-gutter { width: 1%;
+  .grid-gutter { width: 2%;
     }
 @media (max-width: 767px) {
     .grid-sizer,
@@ -52,7 +56,9 @@ permalink: /
       itemSelector: '.grid-item',
       columnWidth: '.grid-sizer',
       percentPosition: true,
-      gutter: '.grid-gutter'
+      gutter: '.grid-gutter',
+      fitWidth: true,
+
     });
     $('.grid').imagesLoaded().progress( function() {
       $('.grid').masonry('layout');
