@@ -1,5 +1,6 @@
 ---
 posttitle: Welcome to my Blog
+tags: personal
 ---
 
 _This coding stuff is difficult!_

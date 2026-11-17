@@ -1,5 +1,6 @@
 ---
 posttitle: New Camera Budget
+tags: personal
 ---
 Money's tight, but I would like to make the upgrade to a full frame camera. I do all my shooting at this point on a Canon 7Dmk2 which I like quite a bit. It is very cost-effective for its abilities. Here is my budget for a new camera setup. My goal is to buy this for myself as a graduation present in the Spring of 2027.
 

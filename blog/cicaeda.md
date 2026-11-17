@@ -1,5 +1,6 @@
 ---
 posttitle: A cicaeda on the front porch
+tags: personal
 ---
 
 {% lightbox  "cicaeda/cicaeda5.webp", "cicaeda", "5" %}

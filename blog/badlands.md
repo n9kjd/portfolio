@@ -1,5 +1,6 @@
 ---
 posttitle: Trip to Badlands
+tags: personal
 ---
 
 I recently went on a roadtrip to round out the summer before my senior year of college. Visited Badlands National Park and got some landscape shots. It's certainly not what I like normally, but I enjoyed these shots!
