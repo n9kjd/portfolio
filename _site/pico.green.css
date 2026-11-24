@@ -2375,7 +2375,7 @@ dialog:not([open]), dialog[open=false] {
 
 nav,
 nav ul {
-  display: flex;
+  display: inline-block;
 }
 
 nav {
